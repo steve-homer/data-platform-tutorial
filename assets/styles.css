@@ -2,9 +2,9 @@
 :root {
   --background: #0d1b2a;
   --text: #e0e1dd;
-  --accent: #b9c5dc;
+  --accent: #334567;
   --highlight: #abbaca;
-  --link: #778da9;
+  --link: #e7e9eb;
   --font-family: 'Inter', sans-serif;
 }
 
@@ -22,6 +22,7 @@ nav {
   padding: 1rem;
   display: flex;
   gap: 1rem;
+  justify-content: right;
 }
 
 nav a {
@@ -33,8 +34,14 @@ nav a {
 .hero {
   display: flex;
   align-items: center;
+  
   justify-content: space-between;
-  padding: 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.hero div
+{
+  margin: 2rem;
 }
 
 .hero img {
@@ -42,7 +49,8 @@ nav a {
 }
 
 section {
-  padding: 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+
 }
 
 h1, h2 {
