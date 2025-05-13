@@ -1,7 +1,35 @@
-<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#0d1b2a"/>
-  <g stroke="#778da9" stroke-width="2">
-    <polygon points="50,150 200,40 350,150" fill="none"/>
-    <text x="200" y="165" font-size="16" fill="#e0e1dd" text-anchor="middle" font-family="monospace">Flexible & Open</text>
-  </g>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .line { stroke: white; stroke-width: 2; fill: none; }
+    .text { fill: white; font-size: 14px; font-family: monospace; text-anchor: middle; }
+    .shape { stroke: white; stroke-width: 2; fill: none; }
+  </style>
+
+  <!-- Open Core Modules -->
+  <rect x="150" y="80" width="80" height="40" class="shape"/>
+  <text x="190" y="75" class="text">Ingest</text>
+
+  <rect x="300" y="80" width="80" height="40" class="shape"/>
+  <text x="340" y="75" class="text">Transform</text>
+
+  <rect x="450" y="80" width="80" height="40" class="shape"/>
+  <text x="490" y="75" class="text">Model</text>
+
+  <rect x="600" y="80" width="80" height="40" class="shape"/>
+  <text x="640" y="75" class="text">Visualize</text>
+
+  <!-- Open Source Banner -->
+  <text x="400" y="160" class="text">100% Open Source</text>
+  <line x1="100" y1="170" x2="700" y2="170" class="line" stroke-dasharray="4,4"/>
+
+  <!-- Flexible Connections -->
+  <circle cx="200" cy="250" r="30" class="shape"/>
+  <text x="200" y="295" class="text">Local</text>
+
+  <circle cx="600" cy="250" r="30" class="shape"/>
+  <text x="600" y="295" class="text">Cloud</text>
+
+  <line x1="190" y1="250" x2="180" y2="120" class="line" stroke-dasharray="3,3"/>
+  <line x1="600" y1="250" x2="640" y2="120" class="line" stroke-dasharray="3,3"/>
+
 </svg>

@@ -2,17 +2,17 @@
 :root {
   --background: #0d1b2a;
   --text: #e0e1dd;
-  --accent: #1b263b;
-  --highlight: #415a77;
+  --accent: #b9c5dc;
+  --highlight: #abbaca;
   --link: #778da9;
 }
 
 body {
-  background-color: var(--background);
+  background-color: #0d1b2a;
+  background-image: url("assets/blueprint_background.svg");
+  background-size: cover;
+  background-attachment: fixed;
   color: var(--text);
-  font-family: 'Segoe UI', Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 nav {
