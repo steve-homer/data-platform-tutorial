@@ -5,6 +5,7 @@
   --accent: #b9c5dc;
   --highlight: #abbaca;
   --link: #778da9;
+  --font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   color: var(--text);
+  font-family: var(--font-family);
 }
 
 nav {
